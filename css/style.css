@@ -465,7 +465,7 @@ body{
 .grid .description{
 	margin-bottom: 0;
 }
-
+ 
 .grid-line{
 	display: flex;
 	justify-content: space-between;
@@ -968,11 +968,15 @@ body{
 		font-size: 35px;
 	}
 	.photo{
+		display: flex;
 		flex-wrap: wrap;
+		margin-top: 62px;
 	}
 	.photo-item {
-		flex-basis: 50%;
-		height: 250px;
+		overflow: hidden;
+		flex-basis: 20%;
+		height: 350px;
+		position: relative;
 	}
 	.photo-item:last-child, .grid-item:last-child, .mockup{
 		display: none;
